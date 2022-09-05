@@ -81,7 +81,7 @@
 }
 
 .description {
-  margin: 100px 0;
+  margin-top: 100px;
 }
 
 .two-columns {
@@ -89,7 +89,6 @@
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  font-size: 24px;
 }
 
 .two-columns__brief {
@@ -116,6 +115,56 @@
 
 .two-columns__span-accent {
   font-weight: 600;
+}
+
+.digits {
+  margin-top: 100px;
+}
+
+.section-title {
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 0 20%;
+}
+
+.section-subtitle {
+  margin: 20px 0 0;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 0 20%;
+}
+
+.table {
+  margin: 0 auto;
+  width: 1100px;;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 20px 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
