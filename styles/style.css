@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -20,6 +29,7 @@
   align-items: center;
   font-size: 20px;
   z-index: 1;
+  overflow: hidden;
 }
 
 .logo {
@@ -61,6 +71,7 @@
 
 .header__link:hover {
   opacity: 0.5;
+  transition-duration: 0.5s;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -72,6 +83,7 @@
   top: 64px;
   right: 0;
   z-index: -1;
+  animation: rotation 20s linear infinite;
 }
 
 .header__main-illustration {
@@ -218,6 +230,7 @@
 
 .feynman__link:hover {
   opacity: 0.5;
+  transition-duration: 0.5s;
 }
 
 .kaufman {
@@ -323,6 +336,7 @@
 
 .footer__column-link:hover {
   opacity: 0.5;
+  transition-duration: 0.5s;
 }
 
 .footer__social-icon {
