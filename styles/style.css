@@ -136,6 +136,49 @@
   font-weight: 600;
 }
 
+.techniques {
+  max-width: 80%;
+  margin: 100px auto 0;
+}
+
+.cards {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 920px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 100px;
+}
+
+.cards__item {
+  margin-top: 60px;
+  width: 240px;
+  text-align: center;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 40px 0;
+}
+
+.cards__title {
+  margin: 43px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .digits {
   margin-top: 100px;
 }
@@ -280,6 +323,7 @@
   top: 0;
   right: -210px;
   z-index: -1;
+  animation: rotation 20s linear infinite;
 }
 
 .footer {
