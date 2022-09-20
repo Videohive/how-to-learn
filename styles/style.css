@@ -185,7 +185,6 @@
 
 .video__iframes {
   margin: 0px auto 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -425,6 +424,28 @@
   right: -210px;
   z-index: -1;
   animation: rotation 20s linear infinite;
+}
+
+.resources {
+  margin: 100px 0 217px;
+}
+
+.resources__logo-zone {
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transform: scale(0.99);
+}
+
+.resources__logo {
+  width:270px;
+  height: 38px;
 }
 
 .footer {
